@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Styling & JS Demo</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="brand">ApexPlanet Demo</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#api">Random Joke</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Advanced Styling <span>&amp;</span> JavaScript</h2>
+    <p>Responsive layout · Interactive quiz ·</p>
+  </section>
+
+  <main>
+    <section id="quiz" class="card">
+      <h3>Quick Quiz</h3>
+      <div id="quiz-box">
+        <p id="question">Loading question…</p>
+        <div id="choices"></div>
+        <button id="next-btn" disabled>Next</button>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <section id="api" class="card">
+      <h3>Need a Laugh? 🤣</h3>
+      <button id="joke-btn">Get Random Joke</button>
+      <p id="joke-text" class="joke"></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 ApexPlanet Software Pvt Ltd
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
